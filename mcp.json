@@ -1,0 +1,7 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schemas/v1/manifest.json",
+  "name": "mcp-dep-checker",
+  "description": "Audits package dependencies and maintainer status.",
+  "endpoint": "https://mcp-dep-checker.vercel.app/mcp/tools/check_dependency_risk",
+  "payment": { "network": "eip155:8453", "asset": "USDC", "recipient": "0x960E510E4E1dA4B13CE3b601202d4680AFcf02E0", "price": "0.05" }
+}
